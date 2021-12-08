@@ -1,0 +1,152 @@
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}
+
+audio {display: inline-block;}
+
+button {background-color: transparent;
+    border-width: 0;
+     padding: 0;
+    position: absolute;
+    display: inline-block;
+    font-size: 0px;
+    text-decoration: none;
+    top: 3%;
+    left: 1.5%;
+    margin: 0px 0px;
+    z-index: 9;
+
+}
+#loader {
+    position: absolute;
+    left: 85%;
+    top: 65%;
+    z-index: 9;
+    width: 100px;
+    height: 100px;
+    margin: -76px 0 0 -76px;
+    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif; 
+    font-size: 3rem; color: white;
+  }
+
+
+body {
+    overflow: hidden;
+}
+
+
+
+#poetText{font-family: 'Palatino',Times, Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 5%; 
+    top: 3%;
+    left:25%;
+    z-index: 9;; 
+    position: absolute; 
+    text-align: center; 
+    font-size: 1.8rem; color: white;
+       }
+
+#p1{font-family: 'Palatino',Times, Arial, Helvetica, sans-serif;
+width: 50%;
+height: 15%; 
+top: 100px;
+left: 10%;
+z-index: 9; 
+position: absolute; 
+text-align: left; 
+font-size: 1rem; color: white;
+position: relative;
+-webkit-animation-name: animatebottom;
+-webkit-animation-duration: 15s;
+animation-name: animatebottom;
+animation-duration: 15s
+
+}
+
+  @-webkit-keyframes animatebottom {
+    0% { top: 0px; } 25%{ top: 20px; } 75%{ top: 175px; } 100%{ top: 100px; }}
+
+      
+  @keyframes animatebottom { 
+    0% { top: 0px; } 25%{ top: 20px; } 75%{ top: 175px; } 100%{ top: 100px; }}
+
+#p1:hover {
+        color: rgb(241, 185, 255);
+       cursor: pointer;
+       }
+
+#p2{font-family: 'Palatino',Times, Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 15%; 
+    top: 400px;
+    left: 10%;
+    z-index: 9; 
+    position: absolute; 
+    text-align: left; 
+    font-size: 1rem; color: white;
+    position: relative;
+    -webkit-animation-name: animatebottom1;
+    -webkit-animation-duration: 20s;
+    animation-name: animatebottom1;
+    animation-duration: 20s
+    }
+    
+
+
+    @-webkit-keyframes animatebottom1 {
+        0% { top: 80px; } 25%{ top: 180px; } 75%{ top: 420px; } 100%{ top: 380px; }}
+    
+          
+    @keyframes animatebottom1 { 
+        0% { top: 80px; } 25%{ top: 180px; } 75%{ top: 420px; } 100%{ top: 380px; }}
+
+        #p2:hover {
+            color: #a2fff3;
+           cursor: pointer;
+           }
+    
+
+
+    #p3{font-family: 'Palatino',Times, Arial, Helvetica, sans-serif;
+        width: 50%;
+        height: 15%; 
+        top: 480px;
+        left: 57%;
+        z-index: 9; 
+        position: absolute; 
+        text-align: left; 
+        font-size: 1rem; color: white;
+        position: relative;
+        -webkit-animation-name: animatebottom2;
+        -webkit-animation-duration: 20s;
+        animation-name: animatebottom2;
+        animation-duration: 20s
+        }
+    
+    
+        @-webkit-keyframes animatebottom2 {
+            0% { top: 480px; } 50%{ top: 250px; } 75%{ top: 300px; } 100%{ top: 420px; }}
+        
+              
+        @keyframes animatebottom2 { 
+            0% { top: 480px; } 50%{ top: 250px; } 75%{ top: 300px; } 100%{ top: 420px; }}
+        
+            #p3:hover {
+                color: rgb(194, 103, 255);
+               cursor: pointer;
+               }
+        
+
+
+        #webgl-container {
+        
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%; 
+        }
