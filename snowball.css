@@ -1,0 +1,212 @@
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}
+
+audio {display: inline-block;}
+
+button {background-color: transparent;
+    border-width: 0;
+     padding: 0;
+    position: absolute;
+    display: inline-block;
+    font-size: 0px;
+    text-decoration: none;
+    top: 5%;
+    left: 1.7%;
+    margin: 0px 0px;
+    z-index: 9;
+    user-select: none;
+
+}
+#loader {
+    position: absolute;
+    left: 85%;
+    top: 65%;
+    z-index: 9;
+    width: 100px;
+    height: 100px;
+    margin: -76px 0 0 -76px;
+    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif; 
+    font-size: 3rem; color: white;
+    user-select: none;
+  }
+
+
+body {
+    overflow: hidden;
+}
+
+
+.popup {background-color: transparent;
+    border-width: 0;
+     padding: 0;
+    position: absolute;
+    width: 50px; height: 100px;
+    display: inline-block;
+    font-size: 0px;
+    text-decoration: none;
+    top: 5%;
+    left: 50%;
+    margin: 0px 0px;
+    font-size: 1.8rem; color: white;
+    z-index: 9;
+    
+}
+
+.popup:hover {
+    background-image: url(littleprince.png);
+   position: absolute;
+   width: 990px; height: 650px;
+   top: 5%;
+   left: 15%;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   z-index: 10;
+   }
+
+
+
+
+#p1{font-family: 'Palatino',Times, Arial, Helvetica, sans-serif;
+width: 50%;
+height: 15%; 
+top: 100px;
+left: 7%;
+z-index: 9; 
+position: absolute; 
+text-align: left; 
+font-size: 1.5rem; color: white;
+position: relative;
+-webkit-animation-name: animatebottom;
+-webkit-animation-duration: 15s; 
+-webkit-animation-iteration-count: infinite;
+animation-name: animatebottom;
+animation-duration: 15s; 
+animation-iteration-count: infinite;
+user-select: none;
+
+}
+
+  @-webkit-keyframes animatebottom {
+    0% { top: 0px; } 25%{ top: 20px; } 75%{ top: 175px; } 100%{ top: 100px; }}
+
+      
+  @keyframes animatebottom { 
+    0% { top: 0px; } 25%{ top: 20px; } 75%{ top: 175px; } 100%{ top: 100px; }}
+
+#p1:hover {
+        color: rgb(31, 29, 29);
+       cursor: pointer;
+       }
+
+#p2{font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 15%; 
+    top: 400px;
+    left: 10%;
+    z-index: 9; 
+    position: absolute; 
+    text-align: left; 
+    font-size: 1.3rem; color: white;
+    position: relative;
+    -webkit-animation-name: animatebottom1;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: animatebottom1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    user-select: none;
+    }
+    
+
+
+    @-webkit-keyframes animatebottom1 {
+        0% { top: 80px; } 25%{ top: 180px; } 75%{ top: 420px; } 100%{ top: 380px; }}
+    
+          
+    @keyframes animatebottom1 { 
+        0% { top: 80px; } 25%{ top: 180px; } 75%{ top: 420px; } 100%{ top: 380px; }}
+
+        #p2:hover {
+            color: #6cffae;
+           cursor: pointer;
+           }
+    
+
+
+    #p3{font-family: 'Georgia';
+        width: 50%;
+        height: 15%; 
+        top: 480px;
+        left: 70%;
+        z-index: 9; 
+        position: absolute; 
+        text-align: left; 
+        font-size: 1.5rem; color: white;
+        position: relative;
+        -webkit-animation-name: animatebottom2;
+        -webkit-animation-duration: 20s;
+        -webkit-animation-iteration-count: infinite;
+        animation-name: animatebottom2;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        user-select: none;
+        }
+    
+    
+        @-webkit-keyframes animatebottom2 {
+            0% { top: 90px; } 50%{ top: 10px; } 75%{ top: 100px; } 100%{ top: 40px; }}
+        
+              
+        @keyframes animatebottom2 { 
+            0% { top: 90px; } 50%{ top: 10px; } 75%{ top: 0px; } 100%{ top: 40px; }}
+        
+            #p3:hover {
+                color: rgb(83, 255, 241);
+               cursor: pointer;
+               }
+        
+               #p4{font-family: 'Garamond';
+                width: 50%;
+                height: 15%; 
+                top: -30px;
+                left: 65%;
+                z-index: 9; 
+                position: absolute; 
+                text-align: left; 
+                font-size: 1.2rem; color: white;
+                position: relative;
+                -webkit-animation-name: animatebottom3;
+                -webkit-animation-duration: 20s;
+                -webkit-animation-iteration-count: infinite;
+                animation-name: animatebottom3;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                user-select: none;
+                }
+            
+            
+                @-webkit-keyframes animatebottom3 {
+                    0% { top: 0px; } 50%{ top: 120px; } 75%{ top: 20px; } 100%{ top: 80px; }}
+                
+                      
+                @keyframes animatebottom3 { 
+                    0% { top: 0px; } 50%{ top: 120px; } 75%{ top: 20px; } 100%{ top: 80px; }}
+                
+                    #p4:hover {
+                        color: rgb(176, 58, 255);
+                       cursor: pointer;
+                       }
+                       
+
+        #webgl-container {
+        
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%; 
+        }
